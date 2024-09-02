@@ -1,14 +1,26 @@
+
+/*
+* Description of the problem
+- Make a square box with * sign.
+
+* Input
+- The first line will contain number of test cases number, then contain square box * size.
+
+* Output
+- Each N value for (N * N) Draw the square. The entire square must be filled with '*' Each square should be separated by a blank line. No extra blank lines or spaces may be placed anywhere other than as separators.
+*/
+
 #include <stdio.h>
 
 int main()
 {
-    int line_limit, i, j, userValue;
+    int case_limit, i, j, userValue;
 
     // Input the number of test cases
     printf("Enter case line: ");
-    scanf("%d", &line_limit);
+    scanf("%d", &case_limit);
 
-    while (line_limit--)
+    while (case_limit--)
     {
         // Input the User value for the current test case
         printf("Enter your number: ");
