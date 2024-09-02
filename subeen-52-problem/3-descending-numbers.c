@@ -1,3 +1,16 @@
+
+/*
+* Description of the problem
+- Write a program that print all the numbers 1000 to 1 in descending order.
+
+*Input
+- There is no input
+
+* Output
+Each line output total 5 number and separated each othe by '\t' (tab) character.
+
+*/
+
 #include <stdio.h>
 
 int main()
